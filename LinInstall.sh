@@ -10,7 +10,7 @@ echo "2. Then, you must find the path of this folder and put that under path"
 echo "3. Then, select install server and click ok"
 echo "Then, the Minecraft EULA will be displayed and ask for you to accept it."
 read -p "Press any key to continue..."
-wget -O forgeinstaller.jar http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.1902-1.8.9/forge-1.8.9-11.15.1.1902-1.8.9-installer.jar
+wget -O forgeinstaller.jar http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.9-12.16.1.1934/forge-1.9-12.16.1.1934-installer.jar
 java -jar forgeinstaller.jar
 echo "Your browser will now open to the EULA. Press any key to get to the accept/deny prompt."
 if which xdg-open > /dev/null
@@ -24,4 +24,4 @@ read -p "Press any key to continue..."
 read -p "Do you accept the EULA?(true/false)" accept
 accept="eula=$accept"
 echo accept >> eula.txt
-echo "Thanks for using JasonIEC's Linux installer for Forge 1.8.9-11.15.1.1902"
+echo "Thanks for using JasonIEC's Linux installer for Forge 1.9-12.16.1.1934"
